@@ -94,6 +94,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+    <None Include="Resources\InstagramX_HoveredStatisticsIcon.png" />
+    <None Include="Resources\InstagramX_HoveredSettingsIcon.png" />
+    <None Include="Resources\InstagramX_HoveredHomeIcon.png" />
+    <None Include="Resources\InstagramX_HoveredDatabaseIcon.png" />
     <None Include="Resources\InstagramX_StatisticsIcon.png" />
     <None Include="Resources\InstagramX_SettingsIcon.png" />
     <None Include="Resources\InstagramX_HomeIcon.png" />
