@@ -63,6 +63,16 @@ namespace InstagramX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_DatabaseIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_DatabaseIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InstagramX_HeaderLabelIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_HeaderLabelIcon", resourceCulture);
@@ -73,9 +83,49 @@ namespace InstagramX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_HeaderSmallLabelIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_HeaderSmallLabelIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_HomeIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_HomeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InstagramX_LogoIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_LogoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_SettingsIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_SettingsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_StatisticsIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_StatisticsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

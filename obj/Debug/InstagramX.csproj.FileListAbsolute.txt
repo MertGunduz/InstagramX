@@ -7,3 +7,5 @@ C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.GenerateResource.
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.CoreCompileInputs.cache
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.exe
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.pdb
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.AssemblyReference.cache
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_MainMenu.resources
