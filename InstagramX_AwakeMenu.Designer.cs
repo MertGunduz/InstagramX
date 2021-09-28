@@ -29,6 +29,7 @@ namespace InstagramX
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InstagramX_AwakeMenu));
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.TopBorder_Panel = new System.Windows.Forms.Panel();
@@ -51,6 +52,7 @@ namespace InstagramX
             this.MainLogoHeader_Panel = new System.Windows.Forms.Panel();
             this.LabelLogo_PictureBox = new System.Windows.Forms.PictureBox();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
+            this.AwakeMenu_Timer = new System.Windows.Forms.Timer(this.components);
             this.Main_Panel.SuspendLayout();
             this.MainLogo_Panel.SuspendLayout();
             this.MainLogoHeader_Panel.SuspendLayout();
@@ -262,6 +264,11 @@ namespace InstagramX
             this.Logo_PictureBox.TabIndex = 0;
             this.Logo_PictureBox.TabStop = false;
             // 
+            // AwakeMenu_Timer
+            // 
+            this.AwakeMenu_Timer.Interval = 20;
+            this.AwakeMenu_Timer.Tick += new System.EventHandler(this.AwakeMenu_Timer_Tick);
+            // 
             // InstagramX_AwakeMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -273,6 +280,7 @@ namespace InstagramX
             this.Name = "InstagramX_AwakeMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InstagramX";
+            this.Load += new System.EventHandler(this.InstagramX_AwakeMenu_Load);
             this.Main_Panel.ResumeLayout(false);
             this.MainLogo_Panel.ResumeLayout(false);
             this.MainLogoHeader_Panel.ResumeLayout(false);
@@ -305,6 +313,7 @@ namespace InstagramX
         private System.Windows.Forms.Panel MainLogoHeader_Panel;
         private System.Windows.Forms.PictureBox LabelLogo_PictureBox;
         private System.Windows.Forms.PictureBox Logo_PictureBox;
+        private System.Windows.Forms.Timer AwakeMenu_Timer;
     }
 }
 

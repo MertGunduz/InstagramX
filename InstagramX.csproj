@@ -55,6 +55,12 @@
     <Compile Include="InstagramX_AwakeMenu.Designer.cs">
       <DependentUpon>InstagramX_AwakeMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstagramX_MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstagramX_MainMenu.Designer.cs">
+      <DependentUpon>InstagramX_MainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InstagramX_AwakeMenu.resx">
