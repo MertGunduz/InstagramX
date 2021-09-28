@@ -61,6 +61,12 @@
     <Compile Include="InstagramX_MainMenu.Designer.cs">
       <DependentUpon>InstagramX_MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstagramX_MainMenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstagramX_MainMenuUserControl.Designer.cs">
+      <DependentUpon>InstagramX_MainMenuUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InstagramX_AwakeMenu.resx">
@@ -68,6 +74,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InstagramX_MainMenu.resx">
       <DependentUpon>InstagramX_MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstagramX_MainMenuUserControl.resx">
+      <DependentUpon>InstagramX_MainMenuUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
