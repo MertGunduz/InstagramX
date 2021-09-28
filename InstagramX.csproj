@@ -55,6 +55,12 @@
     <Compile Include="InstagramX_AwakeMenu.Designer.cs">
       <DependentUpon>InstagramX_AwakeMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstagramX_DatabaseMenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstagramX_DatabaseMenuUserControl.Designer.cs">
+      <DependentUpon>InstagramX_DatabaseMenuUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstagramX_MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,16 +73,37 @@
     <Compile Include="InstagramX_MainMenuUserControl.Designer.cs">
       <DependentUpon>InstagramX_MainMenuUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstagramX_SettingsMenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstagramX_SettingsMenuUserControl.Designer.cs">
+      <DependentUpon>InstagramX_SettingsMenuUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstagramX_StatisticsMenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstagramX_StatisticsMenuUserControl.Designer.cs">
+      <DependentUpon>InstagramX_StatisticsMenuUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InstagramX_AwakeMenu.resx">
       <DependentUpon>InstagramX_AwakeMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstagramX_DatabaseMenuUserControl.resx">
+      <DependentUpon>InstagramX_DatabaseMenuUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstagramX_MainMenu.resx">
       <DependentUpon>InstagramX_MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstagramX_MainMenuUserControl.resx">
       <DependentUpon>InstagramX_MainMenuUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstagramX_SettingsMenuUserControl.resx">
+      <DependentUpon>InstagramX_SettingsMenuUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstagramX_StatisticsMenuUserControl.resx">
+      <DependentUpon>InstagramX_StatisticsMenuUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
