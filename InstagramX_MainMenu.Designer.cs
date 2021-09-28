@@ -41,7 +41,11 @@ namespace InstagramX
             this.ExitButton_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButtonMargin_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButton_Panel = new System.Windows.Forms.Panel();
-            this.MenuHeaderPictureBoxMargin_Panel = new System.Windows.Forms.Panel();
+            this.MinimizeButtonLeftMargin_Panel = new System.Windows.Forms.Panel();
+            this.MinimizeTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.ExitTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.ExitBottomMargin_Panel = new System.Windows.Forms.Panel();
+            this.MinimizeBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButton_PictureBox = new System.Windows.Forms.PictureBox();
             this.ExitButton_PictureBox = new System.Windows.Forms.PictureBox();
             this.Statistics_Button = new System.Windows.Forms.Button();
@@ -50,11 +54,6 @@ namespace InstagramX
             this.MainMenu_Button = new System.Windows.Forms.Button();
             this.MainHeaderLabel_PictureBox = new System.Windows.Forms.PictureBox();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
-            this.MinimizeButtonLeftMargin_Panel = new System.Windows.Forms.Panel();
-            this.MinimizeTopMargin_Panel = new System.Windows.Forms.Panel();
-            this.ExitTopMargin_Panel = new System.Windows.Forms.Panel();
-            this.ExitBottomMargin_Panel = new System.Windows.Forms.Panel();
-            this.MinimizeBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Main_Panel.SuspendLayout();
             this.Left_Panel.SuspendLayout();
             this.MainLogo_Panel.SuspendLayout();
@@ -132,7 +131,6 @@ namespace InstagramX
             // ControlButtons_Panel
             // 
             this.ControlButtons_Panel.Controls.Add(this.MinimizeButtonLeftMargin_Panel);
-            this.ControlButtons_Panel.Controls.Add(this.MenuHeaderPictureBoxMargin_Panel);
             this.ControlButtons_Panel.Controls.Add(this.MinimizeButton_Panel);
             this.ControlButtons_Panel.Controls.Add(this.MinimizeButtonMargin_Panel);
             this.ControlButtons_Panel.Controls.Add(this.ExitButton_Panel);
@@ -181,13 +179,45 @@ namespace InstagramX
             this.MinimizeButton_Panel.Size = new System.Drawing.Size(20, 57);
             this.MinimizeButton_Panel.TabIndex = 5;
             // 
-            // MenuHeaderPictureBoxMargin_Panel
+            // MinimizeButtonLeftMargin_Panel
             // 
-            this.MenuHeaderPictureBoxMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuHeaderPictureBoxMargin_Panel.Location = new System.Drawing.Point(0, 0);
-            this.MenuHeaderPictureBoxMargin_Panel.Name = "MenuHeaderPictureBoxMargin_Panel";
-            this.MenuHeaderPictureBoxMargin_Panel.Size = new System.Drawing.Size(10, 57);
-            this.MenuHeaderPictureBoxMargin_Panel.TabIndex = 7;
+            this.MinimizeButtonLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MinimizeButtonLeftMargin_Panel.Location = new System.Drawing.Point(560, 0);
+            this.MinimizeButtonLeftMargin_Panel.Name = "MinimizeButtonLeftMargin_Panel";
+            this.MinimizeButtonLeftMargin_Panel.Size = new System.Drawing.Size(10, 57);
+            this.MinimizeButtonLeftMargin_Panel.TabIndex = 8;
+            // 
+            // MinimizeTopMargin_Panel
+            // 
+            this.MinimizeTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MinimizeTopMargin_Panel.Location = new System.Drawing.Point(0, 0);
+            this.MinimizeTopMargin_Panel.Name = "MinimizeTopMargin_Panel";
+            this.MinimizeTopMargin_Panel.Size = new System.Drawing.Size(20, 15);
+            this.MinimizeTopMargin_Panel.TabIndex = 0;
+            // 
+            // ExitTopMargin_Panel
+            // 
+            this.ExitTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ExitTopMargin_Panel.Location = new System.Drawing.Point(0, 0);
+            this.ExitTopMargin_Panel.Name = "ExitTopMargin_Panel";
+            this.ExitTopMargin_Panel.Size = new System.Drawing.Size(20, 15);
+            this.ExitTopMargin_Panel.TabIndex = 1;
+            // 
+            // ExitBottomMargin_Panel
+            // 
+            this.ExitBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ExitBottomMargin_Panel.Location = new System.Drawing.Point(0, 42);
+            this.ExitBottomMargin_Panel.Name = "ExitBottomMargin_Panel";
+            this.ExitBottomMargin_Panel.Size = new System.Drawing.Size(20, 15);
+            this.ExitBottomMargin_Panel.TabIndex = 2;
+            // 
+            // MinimizeBottomMargin_Panel
+            // 
+            this.MinimizeBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.MinimizeBottomMargin_Panel.Location = new System.Drawing.Point(0, 42);
+            this.MinimizeBottomMargin_Panel.Name = "MinimizeBottomMargin_Panel";
+            this.MinimizeBottomMargin_Panel.Size = new System.Drawing.Size(20, 15);
+            this.MinimizeBottomMargin_Panel.TabIndex = 3;
             // 
             // MinimizeButton_PictureBox
             // 
@@ -342,46 +372,6 @@ namespace InstagramX
             this.Logo_PictureBox.TabIndex = 0;
             this.Logo_PictureBox.TabStop = false;
             // 
-            // MinimizeButtonLeftMargin_Panel
-            // 
-            this.MinimizeButtonLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.MinimizeButtonLeftMargin_Panel.Location = new System.Drawing.Point(560, 0);
-            this.MinimizeButtonLeftMargin_Panel.Name = "MinimizeButtonLeftMargin_Panel";
-            this.MinimizeButtonLeftMargin_Panel.Size = new System.Drawing.Size(10, 57);
-            this.MinimizeButtonLeftMargin_Panel.TabIndex = 8;
-            // 
-            // MinimizeTopMargin_Panel
-            // 
-            this.MinimizeTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MinimizeTopMargin_Panel.Location = new System.Drawing.Point(0, 0);
-            this.MinimizeTopMargin_Panel.Name = "MinimizeTopMargin_Panel";
-            this.MinimizeTopMargin_Panel.Size = new System.Drawing.Size(20, 15);
-            this.MinimizeTopMargin_Panel.TabIndex = 0;
-            // 
-            // ExitTopMargin_Panel
-            // 
-            this.ExitTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ExitTopMargin_Panel.Location = new System.Drawing.Point(0, 0);
-            this.ExitTopMargin_Panel.Name = "ExitTopMargin_Panel";
-            this.ExitTopMargin_Panel.Size = new System.Drawing.Size(20, 15);
-            this.ExitTopMargin_Panel.TabIndex = 1;
-            // 
-            // ExitBottomMargin_Panel
-            // 
-            this.ExitBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ExitBottomMargin_Panel.Location = new System.Drawing.Point(0, 42);
-            this.ExitBottomMargin_Panel.Name = "ExitBottomMargin_Panel";
-            this.ExitBottomMargin_Panel.Size = new System.Drawing.Size(20, 15);
-            this.ExitBottomMargin_Panel.TabIndex = 2;
-            // 
-            // MinimizeBottomMargin_Panel
-            // 
-            this.MinimizeBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.MinimizeBottomMargin_Panel.Location = new System.Drawing.Point(0, 42);
-            this.MinimizeBottomMargin_Panel.Name = "MinimizeBottomMargin_Panel";
-            this.MinimizeBottomMargin_Panel.Size = new System.Drawing.Size(20, 15);
-            this.MinimizeBottomMargin_Panel.TabIndex = 3;
-            // 
             // InstagramX_MainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -430,7 +420,6 @@ namespace InstagramX
         private System.Windows.Forms.Panel ExitButtonMargin_Panel;
         private System.Windows.Forms.PictureBox MinimizeButton_PictureBox;
         private System.Windows.Forms.PictureBox ExitButton_PictureBox;
-        private System.Windows.Forms.Panel MenuHeaderPictureBoxMargin_Panel;
         private System.Windows.Forms.Panel MinimizeButtonLeftMargin_Panel;
         private System.Windows.Forms.Panel MinimizeBottomMargin_Panel;
         private System.Windows.Forms.Panel MinimizeTopMargin_Panel;
