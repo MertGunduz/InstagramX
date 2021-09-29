@@ -130,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+    <None Include="Resources\InstagramX_HeaderCreateAccountsIcon.png" />
     <None Include="Resources\InstagramX_NLikeIcon.png" />
     <None Include="Resources\InstagramX_NFollowerIcon.png" />
     <None Include="Resources\InstagramX_NCommentIcon.png" />

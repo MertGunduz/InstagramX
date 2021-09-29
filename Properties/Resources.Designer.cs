@@ -63,6 +63,16 @@ namespace InstagramX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_CreateAccountsIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_CreateAccountsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InstagramX_DatabaseIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_DatabaseIcon", resourceCulture);
@@ -76,6 +86,16 @@ namespace InstagramX.Properties {
         internal static System.Drawing.Bitmap InstagramX_ExitIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_ExitIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_HeaderCreateAccountsIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_HeaderCreateAccountsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +166,16 @@ namespace InstagramX.Properties {
         internal static System.Drawing.Bitmap InstagramX_HoveredCommentIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_HoveredCommentIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_HoveredCreateAccountsIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_HoveredCreateAccountsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
