@@ -32,6 +32,12 @@ namespace InstagramX
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.RightContainer_Panel = new System.Windows.Forms.Panel();
             this.RightContainerExpand_Panel = new System.Windows.Forms.Panel();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.CommentBot_Label = new System.Windows.Forms.Label();
             this.RightLeftBorder_Panel = new System.Windows.Forms.Panel();
             this.RightRightBorder_Panel = new System.Windows.Forms.Panel();
             this.RightBottomBorder_Panel = new System.Windows.Forms.Panel();
@@ -39,6 +45,12 @@ namespace InstagramX
             this.RightMidMargin_Panel = new System.Windows.Forms.Panel();
             this.MidContainer_Panel = new System.Windows.Forms.Panel();
             this.MidContainerExpand_Panel = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.LikeBot_Label = new System.Windows.Forms.Label();
             this.MidLeftBorder_Panel = new System.Windows.Forms.Panel();
             this.MidRightBorder_Panel = new System.Windows.Forms.Panel();
             this.MidTopBorder_Panel = new System.Windows.Forms.Panel();
@@ -46,6 +58,12 @@ namespace InstagramX
             this.LeftMidMargin_Panel = new System.Windows.Forms.Panel();
             this.LeftContainer_Panel = new System.Windows.Forms.Panel();
             this.LeftContainerExpand_Panel = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.FollowerBot_Label = new System.Windows.Forms.Label();
             this.LeftRightBorder_Panel = new System.Windows.Forms.Panel();
             this.LeftLeftBorder_Panel = new System.Windows.Forms.Panel();
             this.LeftTopBorder_Panel = new System.Windows.Forms.Panel();
@@ -54,24 +72,6 @@ namespace InstagramX
             this.RightMargin_Panel = new System.Windows.Forms.Panel();
             this.BottomMargin_Panel = new System.Windows.Forms.Panel();
             this.TopMargin_Panel = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.CommentBot_Label = new System.Windows.Forms.Label();
-            this.LikeBot_Label = new System.Windows.Forms.Label();
-            this.FollowerBot_Label = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.Main_Panel.SuspendLayout();
             this.RightContainer_Panel.SuspendLayout();
             this.RightContainerExpand_Panel.SuspendLayout();
@@ -125,6 +125,76 @@ namespace InstagramX
             this.RightContainerExpand_Panel.Name = "RightContainerExpand_Panel";
             this.RightContainerExpand_Panel.Size = new System.Drawing.Size(197, 455);
             this.RightContainerExpand_Panel.TabIndex = 1;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.richTextBox3.Location = new System.Drawing.Point(13, 208);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(171, 177);
+            this.richTextBox3.TabIndex = 14;
+            this.richTextBox3.Text = "** System Messages **\n_____________________";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox7.Location = new System.Drawing.Point(13, 160);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(171, 27);
+            this.textBox7.TabIndex = 18;
+            this.textBox7.Text = "  Speed (1000-3000):";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox8.Location = new System.Drawing.Point(13, 64);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(171, 27);
+            this.textBox8.TabIndex = 17;
+            this.textBox8.Text = "  Instagram User:";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Image = global::InstagramX.Properties.Resources.InstagramX_NCommentIcon;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(13, 407);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button3.Size = new System.Drawing.Size(171, 35);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Comment";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // textBox9
+            // 
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox9.Location = new System.Drawing.Point(13, 112);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(171, 27);
+            this.textBox9.TabIndex = 16;
+            this.textBox9.Text = "  Comment Qty:";
+            // 
+            // CommentBot_Label
+            // 
+            this.CommentBot_Label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.CommentBot_Label.Image = global::InstagramX.Properties.Resources.InstagramX_HeadersCommentBotIcon;
+            this.CommentBot_Label.Location = new System.Drawing.Point(2, 2);
+            this.CommentBot_Label.Name = "CommentBot_Label";
+            this.CommentBot_Label.Size = new System.Drawing.Size(193, 45);
+            this.CommentBot_Label.TabIndex = 6;
             // 
             // RightLeftBorder_Panel
             // 
@@ -198,6 +268,76 @@ namespace InstagramX
             this.MidContainerExpand_Panel.Size = new System.Drawing.Size(197, 455);
             this.MidContainerExpand_Panel.TabIndex = 0;
             // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.richTextBox2.Location = new System.Drawing.Point(13, 209);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(171, 177);
+            this.richTextBox2.TabIndex = 9;
+            this.richTextBox2.Text = "** System Messages **\n_____________________";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox4.Location = new System.Drawing.Point(13, 161);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(171, 27);
+            this.textBox4.TabIndex = 13;
+            this.textBox4.Text = "  Speed (1000-3000):";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox5.Location = new System.Drawing.Point(13, 65);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(171, 27);
+            this.textBox5.TabIndex = 12;
+            this.textBox5.Text = "  Instagram User:";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Image = global::InstagramX.Properties.Resources.InstagramX_NLikeIcon;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.Location = new System.Drawing.Point(13, 407);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button2.Size = new System.Drawing.Size(171, 35);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Like Posts";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox6.Location = new System.Drawing.Point(13, 113);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(171, 27);
+            this.textBox6.TabIndex = 11;
+            this.textBox6.Text = "  Like Qty:";
+            // 
+            // LikeBot_Label
+            // 
+            this.LikeBot_Label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LikeBot_Label.Image = global::InstagramX.Properties.Resources.InstagramX_HeadersLikeBotIcon;
+            this.LikeBot_Label.Location = new System.Drawing.Point(2, 2);
+            this.LikeBot_Label.Name = "LikeBot_Label";
+            this.LikeBot_Label.Size = new System.Drawing.Size(193, 45);
+            this.LikeBot_Label.TabIndex = 4;
+            // 
             // MidLeftBorder_Panel
             // 
             this.MidLeftBorder_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
@@ -270,6 +410,76 @@ namespace InstagramX
             this.LeftContainerExpand_Panel.Size = new System.Drawing.Size(197, 455);
             this.LeftContainerExpand_Panel.TabIndex = 0;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.richTextBox1.Location = new System.Drawing.Point(13, 209);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(171, 177);
+            this.richTextBox1.TabIndex = 5;
+            this.richTextBox1.Text = "** System Messages **\n_____________________";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox1.Location = new System.Drawing.Point(13, 161);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(171, 27);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.Text = "  Speed (1000-3000):";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox3.Location = new System.Drawing.Point(13, 65);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(171, 27);
+            this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "  Instagram User:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Image = global::InstagramX.Properties.Resources.InstagramX_NFollowerIcon;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(13, 407);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button1.Size = new System.Drawing.Size(171, 35);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Follow User";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.textBox2.Location = new System.Drawing.Point(13, 113);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(171, 27);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "  Follower Qty:";
+            // 
+            // FollowerBot_Label
+            // 
+            this.FollowerBot_Label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.FollowerBot_Label.Image = global::InstagramX.Properties.Resources.InstagramX_HeadersFollowersBotIcon;
+            this.FollowerBot_Label.Location = new System.Drawing.Point(2, 2);
+            this.FollowerBot_Label.Name = "FollowerBot_Label";
+            this.FollowerBot_Label.Size = new System.Drawing.Size(193, 45);
+            this.FollowerBot_Label.TabIndex = 5;
+            // 
             // LeftRightBorder_Panel
             // 
             this.LeftRightBorder_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
@@ -337,216 +547,6 @@ namespace InstagramX
             this.TopMargin_Panel.Name = "TopMargin_Panel";
             this.TopMargin_Panel.Size = new System.Drawing.Size(630, 10);
             this.TopMargin_Panel.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox2.Location = new System.Drawing.Point(13, 113);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(171, 27);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "  Follower Qty:";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Image = global::InstagramX.Properties.Resources.InstagramX_FollowerIcon;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(13, 407);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.button1.Size = new System.Drawing.Size(171, 35);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Follow User";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox3.Location = new System.Drawing.Point(13, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(171, 27);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "  Instagram User:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox1.Location = new System.Drawing.Point(13, 161);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 27);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "  Speed (1000-3000):";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.richTextBox1.Location = new System.Drawing.Point(13, 209);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(171, 177);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "** System Messages **\n_____________________";
-            // 
-            // CommentBot_Label
-            // 
-            this.CommentBot_Label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.CommentBot_Label.Image = global::InstagramX.Properties.Resources.InstagramX_HeadersCommentBotIcon;
-            this.CommentBot_Label.Location = new System.Drawing.Point(2, 2);
-            this.CommentBot_Label.Name = "CommentBot_Label";
-            this.CommentBot_Label.Size = new System.Drawing.Size(193, 45);
-            this.CommentBot_Label.TabIndex = 6;
-            // 
-            // LikeBot_Label
-            // 
-            this.LikeBot_Label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LikeBot_Label.Image = global::InstagramX.Properties.Resources.InstagramX_HeadersLikeBotIcon;
-            this.LikeBot_Label.Location = new System.Drawing.Point(2, 2);
-            this.LikeBot_Label.Name = "LikeBot_Label";
-            this.LikeBot_Label.Size = new System.Drawing.Size(193, 45);
-            this.LikeBot_Label.TabIndex = 4;
-            // 
-            // FollowerBot_Label
-            // 
-            this.FollowerBot_Label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.FollowerBot_Label.Image = global::InstagramX.Properties.Resources.InstagramX_HeadersFollowersBotIcon;
-            this.FollowerBot_Label.Location = new System.Drawing.Point(2, 2);
-            this.FollowerBot_Label.Name = "FollowerBot_Label";
-            this.FollowerBot_Label.Size = new System.Drawing.Size(193, 45);
-            this.FollowerBot_Label.TabIndex = 5;
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.richTextBox2.Location = new System.Drawing.Point(13, 209);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(171, 177);
-            this.richTextBox2.TabIndex = 9;
-            this.richTextBox2.Text = "** System Messages **\n_____________________";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox4.Location = new System.Drawing.Point(13, 161);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(171, 27);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.Text = "  Speed (1000-3000):";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox5.Location = new System.Drawing.Point(13, 65);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(171, 27);
-            this.textBox5.TabIndex = 12;
-            this.textBox5.Text = "  Instagram User:";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Image = global::InstagramX.Properties.Resources.InstagramX_LikeIcon;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(13, 407);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.button2.Size = new System.Drawing.Size(171, 35);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Like Posts";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox6.Location = new System.Drawing.Point(13, 113);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(171, 27);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.Text = "  Like Qty:";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.richTextBox3.Location = new System.Drawing.Point(13, 208);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(171, 177);
-            this.richTextBox3.TabIndex = 14;
-            this.richTextBox3.Text = "** System Messages **\n_____________________";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox7.Location = new System.Drawing.Point(13, 160);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(171, 27);
-            this.textBox7.TabIndex = 18;
-            this.textBox7.Text = "  Speed (1000-3000):";
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox8.Location = new System.Drawing.Point(13, 64);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(171, 27);
-            this.textBox8.TabIndex = 17;
-            this.textBox8.Text = "  Instagram User:";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Image = global::InstagramX.Properties.Resources.InstagramX_CommentIcon;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(13, 407);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.button3.Size = new System.Drawing.Size(171, 35);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "Comment";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.textBox9.Location = new System.Drawing.Point(13, 112);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(171, 27);
-            this.textBox9.TabIndex = 16;
-            this.textBox9.Text = "  Comment Qty:";
             // 
             // InstagramX_MainMenuUserControl
             // 

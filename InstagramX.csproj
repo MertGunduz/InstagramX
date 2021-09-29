@@ -130,6 +130,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+    <None Include="Resources\InstagramX_NLikeIcon.png" />
+    <None Include="Resources\InstagramX_NFollowerIcon.png" />
+    <None Include="Resources\InstagramX_NCommentIcon.png" />
+    <None Include="Resources\InstagramX_HoveredLikeIcon.png" />
+    <None Include="Resources\InstagramX_HoveredFollowerIcon.png" />
+    <None Include="Resources\InstagramX_HoveredCommentIcon.png" />
+    <None Include="Resources\InstagramX_HeadersLikeBotIcon.png" />
+    <None Include="Resources\InstagramX_HeadersFollowersBotIcon.png" />
+    <None Include="Resources\InstagramX_HeadersCommentBotIcon.png" />
     <None Include="Resources\InstagramX_MinimzeIcon.png" />
     <None Include="Resources\InstagramX_HoveredMinimzeIcon.png" />
     <None Include="Resources\InstagramX_HoveredExitIcon.png" />
