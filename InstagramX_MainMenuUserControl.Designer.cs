@@ -148,6 +148,7 @@ namespace InstagramX
             this.CommentBotSpeed_TextBox.Size = new System.Drawing.Size(171, 27);
             this.CommentBotSpeed_TextBox.TabIndex = 18;
             this.CommentBotSpeed_TextBox.Text = "  Speed (1000-3000):";
+            this.CommentBotSpeed_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CommentBotSpeed_TextBox_MouseClick);
             // 
             // CommentBotInstagramUser_TextBox
             // 
@@ -159,6 +160,7 @@ namespace InstagramX
             this.CommentBotInstagramUser_TextBox.Size = new System.Drawing.Size(171, 27);
             this.CommentBotInstagramUser_TextBox.TabIndex = 17;
             this.CommentBotInstagramUser_TextBox.Text = "  Instagram User:";
+            this.CommentBotInstagramUser_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CommentBotInstagramUser_TextBox_MouseClick);
             // 
             // Comment_Button
             // 
@@ -193,6 +195,7 @@ namespace InstagramX
             this.CommentBotCommentQty_TextBox.Size = new System.Drawing.Size(171, 27);
             this.CommentBotCommentQty_TextBox.TabIndex = 16;
             this.CommentBotCommentQty_TextBox.Text = "  Comment Qty:";
+            this.CommentBotCommentQty_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CommentBotCommentQty_TextBox_MouseClick);
             // 
             // CommentBot_Label
             // 
@@ -297,6 +300,7 @@ namespace InstagramX
             this.LikeBotSpeed_TextBox.Size = new System.Drawing.Size(171, 27);
             this.LikeBotSpeed_TextBox.TabIndex = 13;
             this.LikeBotSpeed_TextBox.Text = "  Speed (1000-3000):";
+            this.LikeBotSpeed_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LikeBotSpeed_TextBox_MouseClick);
             // 
             // LikeBotInstagramUser_TextBox
             // 
@@ -308,6 +312,7 @@ namespace InstagramX
             this.LikeBotInstagramUser_TextBox.Size = new System.Drawing.Size(171, 27);
             this.LikeBotInstagramUser_TextBox.TabIndex = 12;
             this.LikeBotInstagramUser_TextBox.Text = "  Instagram User:";
+            this.LikeBotInstagramUser_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LikeBotInstagramUser_TextBox_MouseClick);
             // 
             // LikePosts_Button
             // 
@@ -342,6 +347,7 @@ namespace InstagramX
             this.LikeBotLikeQty_TextBox.Size = new System.Drawing.Size(171, 27);
             this.LikeBotLikeQty_TextBox.TabIndex = 11;
             this.LikeBotLikeQty_TextBox.Text = "  Like Qty:";
+            this.LikeBotLikeQty_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LikeBotLikeQty_TextBox_MouseClick);
             // 
             // LikeBot_Label
             // 
@@ -446,6 +452,7 @@ namespace InstagramX
             this.FollowerBotSpeed_TextBox.Size = new System.Drawing.Size(171, 27);
             this.FollowerBotSpeed_TextBox.TabIndex = 8;
             this.FollowerBotSpeed_TextBox.Text = "  Speed (1000-3000):";
+            this.FollowerBotSpeed_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FollowerBotSpeed_TextBox_MouseClick);
             // 
             // FollowerBotInstagramUser_TextBox
             // 
@@ -457,6 +464,7 @@ namespace InstagramX
             this.FollowerBotInstagramUser_TextBox.Size = new System.Drawing.Size(171, 27);
             this.FollowerBotInstagramUser_TextBox.TabIndex = 7;
             this.FollowerBotInstagramUser_TextBox.Text = "  Instagram User:";
+            this.FollowerBotInstagramUser_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FollowerBotInstagramUser_TextBox_MouseClick);
             // 
             // FollowUser_Button
             // 
@@ -491,6 +499,7 @@ namespace InstagramX
             this.FollowerBotFollowerQty_TextBox.Size = new System.Drawing.Size(171, 27);
             this.FollowerBotFollowerQty_TextBox.TabIndex = 6;
             this.FollowerBotFollowerQty_TextBox.Text = "  Follower Qty:";
+            this.FollowerBotFollowerQty_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FollowerBotFollowerQty_TextBox_MouseClick);
             // 
             // FollowerBot_Label
             // 
