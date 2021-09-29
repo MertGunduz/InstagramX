@@ -301,6 +301,7 @@ namespace InstagramX
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "InstagramX_DatabaseMenuUserControl";
             this.Size = new System.Drawing.Size(630, 475);
+            this.Load += new System.EventHandler(this.InstagramX_DatabaseMenuUserControl_Load);
             this.Main_Panel.ResumeLayout(false);
             this.LeftContainer_Panel.ResumeLayout(false);
             this.LeftContainerExpand_Panel.ResumeLayout(false);

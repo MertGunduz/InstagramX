@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 using InstagramX.Properties;
 
@@ -13,9 +14,33 @@ namespace InstagramX
 {
     public partial class InstagramX_DatabaseMenuUserControl : UserControl
     {
+        SqlConnection MSSQLConnection = new SqlConnection(Database.DatabaseString);
+
         public InstagramX_DatabaseMenuUserControl()
         {
             InitializeComponent();
+        }
+        private void InstagramX_DatabaseMenuUserControl_Load(object sender, EventArgs e)
+        {
+            // Connection Set To Open
+            MSSQLConnection.Open();
+
+            // T-SQL Command (Lists All The Data)
+            SqlCommand selectCommand = new SqlCommand("Select * From InstagramX_AccountsTable", MSSQLConnection);
+            
+            // SQL Data Adapter Linked To SelectCommand
+            var sqlDataAdapter = new SqlDataAdapter();
+            sqlDataAdapter.SelectCommand = selectCommand;
+            
+            // Datatable Filled
+            DataTable dataTable = new DataTable();
+            sqlDataAdapter.Fill(dataTable);
+
+            InstagramX_DataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            InstagramX_DataGridView.DataSource = dataTable;
+            
+            // Connection Set To Closed
+            MSSQLConnection.Close();
         }
 
         // CreateAccountsButton (Hover-NonHover)
