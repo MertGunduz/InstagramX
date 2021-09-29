@@ -26,7 +26,7 @@ namespace InstagramX
             MSSQLConnection.Open();
 
             // T-SQL Command (Lists All The Data)
-            SqlCommand selectCommand = new SqlCommand("Select * From InstagramX_AccountsTable", MSSQLConnection);
+            SqlCommand selectCommand = new SqlCommand("Select Account_ID As 'ID', Account_Follower As 'Followers', Account_Following As 'Following', Account_Posts As 'Posts', Account_CreationDate As 'Created In', Account_InstagramUsername As 'Instagram Username', Account_InstagramPassword As 'Instagram Password', Account_Email As 'Email', Account_EmailPassword As 'Email Password' From InstagramX_AccountsTable", MSSQLConnection);
             
             // SQL Data Adapter Linked To SelectCommand
             var sqlDataAdapter = new SqlDataAdapter();
