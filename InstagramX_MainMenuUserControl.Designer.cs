@@ -175,6 +175,8 @@ namespace InstagramX
             this.Comment_Button.Text = "Comment";
             this.Comment_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Comment_Button.UseVisualStyleBackColor = false;
+            this.Comment_Button.MouseEnter += new System.EventHandler(this.Comment_Button_MouseEnter);
+            this.Comment_Button.MouseLeave += new System.EventHandler(this.Comment_Button_MouseLeave);
             // 
             // CommentBotCommentQty_TextBox
             // 
@@ -317,6 +319,8 @@ namespace InstagramX
             this.LikePosts_Button.Text = "Like Posts";
             this.LikePosts_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.LikePosts_Button.UseVisualStyleBackColor = false;
+            this.LikePosts_Button.MouseEnter += new System.EventHandler(this.LikePosts_Button_MouseEnter);
+            this.LikePosts_Button.MouseLeave += new System.EventHandler(this.LikePosts_Button_MouseLeave);
             // 
             // LikeBotLikeQty_TextBox
             // 
@@ -459,6 +463,8 @@ namespace InstagramX
             this.FollowUser_Button.Text = "Follow User";
             this.FollowUser_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.FollowUser_Button.UseVisualStyleBackColor = false;
+            this.FollowUser_Button.MouseEnter += new System.EventHandler(this.FollowUser_Button_MouseEnter);
+            this.FollowUser_Button.MouseLeave += new System.EventHandler(this.FollowUser_Button_MouseLeave);
             // 
             // FollowerBotFollowerQty_TextBox
             // 
