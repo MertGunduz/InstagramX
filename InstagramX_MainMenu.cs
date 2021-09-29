@@ -95,22 +95,22 @@ namespace InstagramX
         // UI Change When Clicks Are Method --> ButtonUI
         private void MainMenu_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel);
+            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
         }
 
         private void Database_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Settings_Button, Navigation_Panel);
+            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
         }
 
         private void Statistics_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Settings_Button, Navigation_Panel);
+            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
         }
 
         private void Settings_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Navigation_Panel);
+            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
         }
 
         // Window State Controls
@@ -124,7 +124,7 @@ namespace InstagramX
             WindowState = FormWindowState.Minimized;
         }
 
-        private void ButtonUI(Button FirstButton, Button SecondButton, Button ThirdButton, Button FourthButton, Panel NavigationPanel)
+        private void ButtonUI(Button FirstButton, Button SecondButton, Button ThirdButton, Button FourthButton, Panel NavigationPanel, UserControl UserControl)
         {
             // Sets The FirstButton As Clicked
             FirstButton.BackColor = Color.FromArgb(46, 51, 73);
@@ -133,6 +133,7 @@ namespace InstagramX
             FirstButton.FlatAppearance.CheckedBackColor = Color.FromArgb(46, 51, 73);
             NavigationPanel.Top = FirstButton.Top;
             NavigationPanel.Left = FirstButton.Left;
+            UserControl.BringToFront();
 
             // Sets The Other Buttons Old Version
             SecondButton.BackColor = Color.FromArgb(24, 30, 54);

@@ -143,7 +143,7 @@ namespace InstagramX
             this.CreateAccountsSystemLog_RichTextBox.Location = new System.Drawing.Point(13, 161);
             this.CreateAccountsSystemLog_RichTextBox.Name = "CreateAccountsSystemLog_RichTextBox";
             this.CreateAccountsSystemLog_RichTextBox.ReadOnly = true;
-            this.CreateAccountsSystemLog_RichTextBox.Size = new System.Drawing.Size(205, 224);
+            this.CreateAccountsSystemLog_RichTextBox.Size = new System.Drawing.Size(205, 225);
             this.CreateAccountsSystemLog_RichTextBox.TabIndex = 5;
             this.CreateAccountsSystemLog_RichTextBox.Text = "***** System Messages *****\n_________________________";
             // 
@@ -273,7 +273,7 @@ namespace InstagramX
             this.CreateAccounts_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
             this.CreateAccounts_Button.Image = global::InstagramX.Properties.Resources.InstagramX_CreateAccountsIcon;
             this.CreateAccounts_Button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.CreateAccounts_Button.Location = new System.Drawing.Point(13, 406);
+            this.CreateAccounts_Button.Location = new System.Drawing.Point(13, 407);
             this.CreateAccounts_Button.Name = "CreateAccounts_Button";
             this.CreateAccounts_Button.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.CreateAccounts_Button.Size = new System.Drawing.Size(205, 35);
