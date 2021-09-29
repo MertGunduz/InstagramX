@@ -162,7 +162,11 @@ namespace InstagramX
             // Comment_Button
             // 
             this.Comment_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.Comment_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Comment_Button.FlatAppearance.BorderSize = 0;
+            this.Comment_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.Comment_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.Comment_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.Comment_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Comment_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Comment_Button.Image = global::InstagramX.Properties.Resources.InstagramX_NCommentIcon;
@@ -306,7 +310,11 @@ namespace InstagramX
             // LikePosts_Button
             // 
             this.LikePosts_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.LikePosts_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LikePosts_Button.FlatAppearance.BorderSize = 0;
+            this.LikePosts_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.LikePosts_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.LikePosts_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.LikePosts_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LikePosts_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.LikePosts_Button.Image = global::InstagramX.Properties.Resources.InstagramX_NLikeIcon;
@@ -450,7 +458,11 @@ namespace InstagramX
             // FollowUser_Button
             // 
             this.FollowUser_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.FollowUser_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FollowUser_Button.FlatAppearance.BorderSize = 0;
+            this.FollowUser_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.FollowUser_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.FollowUser_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.FollowUser_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FollowUser_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FollowUser_Button.Image = global::InstagramX.Properties.Resources.InstagramX_NFollowerIcon;
