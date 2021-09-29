@@ -118,14 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InstagramX_CommentIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_CommentIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="InstagramX_DatabaseIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_DatabaseIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InstagramX_ExitIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_ExitIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="InstagramX_FollowerIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_FollowerIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="InstagramX_HeaderLabelIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HeaderLabelIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstagramX_HeadersCommentBotIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_HeadersCommentBotIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstagramX_HeadersFollowersBotIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_HeadersFollowersBotIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstagramX_HeadersLikeBotIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_HeadersLikeBotIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InstagramX_HeaderSmallLabelIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HeaderSmallLabelIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -150,6 +165,9 @@
   </data>
   <data name="InstagramX_HoveredStatisticsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HoveredStatisticsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstagramX_LikeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_LikeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InstagramX_LogoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_LogoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
