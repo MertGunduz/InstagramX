@@ -279,6 +279,8 @@ namespace InstagramX
             this.CreateAccounts_Button.Text = "Create Accounts";
             this.CreateAccounts_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.CreateAccounts_Button.UseVisualStyleBackColor = false;
+            this.CreateAccounts_Button.MouseEnter += new System.EventHandler(this.CreateAccounts_Button_MouseEnter);
+            this.CreateAccounts_Button.MouseLeave += new System.EventHandler(this.CreateAccounts_Button_MouseLeave);
             // 
             // CreateAccounts_Label
             // 
