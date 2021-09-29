@@ -54,6 +54,8 @@ namespace InstagramX
             this.ExitButtonMargin_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButtonTopMargin_Panel = new System.Windows.Forms.Panel();
             this.ExitButtonTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.AccountQuantity_Label = new System.Windows.Forms.Label();
+            this.AccountQuantityLabelMargin_Panel = new System.Windows.Forms.Panel();
             this.Main_Panel.SuspendLayout();
             this.UserControl_Panel.SuspendLayout();
             this.ControlButtons_Panel.SuspendLayout();
@@ -90,6 +92,8 @@ namespace InstagramX
             // 
             // ControlButtons_Panel
             // 
+            this.ControlButtons_Panel.Controls.Add(this.AccountQuantity_Label);
+            this.ControlButtons_Panel.Controls.Add(this.AccountQuantityLabelMargin_Panel);
             this.ControlButtons_Panel.Controls.Add(this.MinimizeButtonLeftMargin_Panel);
             this.ControlButtons_Panel.Controls.Add(this.MinimizeButton_Panel);
             this.ControlButtons_Panel.Controls.Add(this.MinimizeButtonMargin_Panel);
@@ -376,6 +380,25 @@ namespace InstagramX
             this.ExitButtonTopMargin_Panel.Size = new System.Drawing.Size(20, 6);
             this.ExitButtonTopMargin_Panel.TabIndex = 1;
             // 
+            // AccountQuantity_Label
+            // 
+            this.AccountQuantity_Label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AccountQuantity_Label.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.AccountQuantity_Label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.AccountQuantity_Label.Location = new System.Drawing.Point(0, 6);
+            this.AccountQuantity_Label.Name = "AccountQuantity_Label";
+            this.AccountQuantity_Label.Size = new System.Drawing.Size(560, 19);
+            this.AccountQuantity_Label.TabIndex = 9;
+            this.AccountQuantity_Label.Text = "  Instagram Account Quantity: 0";
+            // 
+            // AccountQuantityLabelMargin_Panel
+            // 
+            this.AccountQuantityLabelMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AccountQuantityLabelMargin_Panel.Location = new System.Drawing.Point(0, 0);
+            this.AccountQuantityLabelMargin_Panel.Name = "AccountQuantityLabelMargin_Panel";
+            this.AccountQuantityLabelMargin_Panel.Size = new System.Drawing.Size(560, 6);
+            this.AccountQuantityLabelMargin_Panel.TabIndex = 9;
+            // 
             // InstagramX_MainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -430,5 +453,7 @@ namespace InstagramX
         private System.Windows.Forms.Panel MinimizeButtonTopMargin_Panel;
         private System.Windows.Forms.Panel ExitButtonMargin_Panel;
         private System.Windows.Forms.Panel ExitButtonTopMargin_Panel;
+        private System.Windows.Forms.Label AccountQuantity_Label;
+        private System.Windows.Forms.Panel AccountQuantityLabelMargin_Panel;
     }
 }
