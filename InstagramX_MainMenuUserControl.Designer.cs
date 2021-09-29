@@ -133,6 +133,7 @@ namespace InstagramX
             this.CommentBotSystemLog_RichTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
             this.CommentBotSystemLog_RichTextBox.Location = new System.Drawing.Point(13, 208);
             this.CommentBotSystemLog_RichTextBox.Name = "CommentBotSystemLog_RichTextBox";
+            this.CommentBotSystemLog_RichTextBox.ReadOnly = true;
             this.CommentBotSystemLog_RichTextBox.Size = new System.Drawing.Size(171, 177);
             this.CommentBotSystemLog_RichTextBox.TabIndex = 14;
             this.CommentBotSystemLog_RichTextBox.Text = "** System Messages **\n_____________________";
@@ -281,6 +282,7 @@ namespace InstagramX
             this.LikeBotSystemLog_RichTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
             this.LikeBotSystemLog_RichTextBox.Location = new System.Drawing.Point(13, 209);
             this.LikeBotSystemLog_RichTextBox.Name = "LikeBotSystemLog_RichTextBox";
+            this.LikeBotSystemLog_RichTextBox.ReadOnly = true;
             this.LikeBotSystemLog_RichTextBox.Size = new System.Drawing.Size(171, 177);
             this.LikeBotSystemLog_RichTextBox.TabIndex = 9;
             this.LikeBotSystemLog_RichTextBox.Text = "** System Messages **\n_____________________";
@@ -429,6 +431,7 @@ namespace InstagramX
             this.FollowerBotSystemLog_RichTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
             this.FollowerBotSystemLog_RichTextBox.Location = new System.Drawing.Point(13, 209);
             this.FollowerBotSystemLog_RichTextBox.Name = "FollowerBotSystemLog_RichTextBox";
+            this.FollowerBotSystemLog_RichTextBox.ReadOnly = true;
             this.FollowerBotSystemLog_RichTextBox.Size = new System.Drawing.Size(171, 177);
             this.FollowerBotSystemLog_RichTextBox.TabIndex = 5;
             this.FollowerBotSystemLog_RichTextBox.Text = "** System Messages **\n_____________________";
