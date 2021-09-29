@@ -253,6 +253,7 @@ namespace InstagramX
             // 
             // InstagramX_DataGridView
             // 
+            this.InstagramX_DataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.InstagramX_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.InstagramX_DataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.InstagramX_DataGridView.Location = new System.Drawing.Point(252, 12);
