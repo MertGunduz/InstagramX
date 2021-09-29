@@ -30,5 +30,21 @@ namespace InstagramX
             CreateAccounts_Button.Image = Resources.InstagramX_CreateAccountsIcon;
             CreateAccounts_Button.ForeColor = Color.FromArgb(4, 150, 239);
         }
+
+        private void CreateAccountsAccountQty_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (CreateAccountsAccountQty_TextBox.Text == "  Account Qty:")
+            {
+                CreateAccountsAccountQty_TextBox.Clear();
+            }
+        }
+
+        private void CreateAccountsSpeed_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (CreateAccountsSpeed_TextBox.Text == "  Speed (1000-3000):")
+            {
+                CreateAccountsSpeed_TextBox.Clear();
+            }
+        }
     }
 }

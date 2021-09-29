@@ -157,6 +157,7 @@ namespace InstagramX
             this.CreateAccountsSpeed_TextBox.Size = new System.Drawing.Size(205, 27);
             this.CreateAccountsSpeed_TextBox.TabIndex = 8;
             this.CreateAccountsSpeed_TextBox.Text = "  Speed (1000-3000):";
+            this.CreateAccountsSpeed_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CreateAccountsSpeed_TextBox_MouseClick);
             // 
             // CreateAccountsAccountQty_TextBox
             // 
@@ -168,6 +169,7 @@ namespace InstagramX
             this.CreateAccountsAccountQty_TextBox.Size = new System.Drawing.Size(205, 27);
             this.CreateAccountsAccountQty_TextBox.TabIndex = 7;
             this.CreateAccountsAccountQty_TextBox.Text = "  Account Qty:";
+            this.CreateAccountsAccountQty_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CreateAccountsAccountQty_TextBox_MouseClick);
             // 
             // LeftRightBorder_Panel
             // 
