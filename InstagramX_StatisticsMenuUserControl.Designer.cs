@@ -231,6 +231,8 @@ namespace InstagramX
             this.ExportOperationStatisticsToHTML_Button.Text = "Export O. Statistics To HTML";
             this.ExportOperationStatisticsToHTML_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ExportOperationStatisticsToHTML_Button.UseVisualStyleBackColor = false;
+            this.ExportOperationStatisticsToHTML_Button.MouseEnter += new System.EventHandler(this.ExportOperationStatisticsToHTML_Button_MouseEnter);
+            this.ExportOperationStatisticsToHTML_Button.MouseLeave += new System.EventHandler(this.ExportOperationStatisticsToHTML_Button_MouseLeave);
             // 
             // LastOperationDate_TextBox
             // 
@@ -402,6 +404,8 @@ namespace InstagramX
             this.ExportAccountStatisticsToHTML_TextBox.Text = "Export A. Statistics To HTML";
             this.ExportAccountStatisticsToHTML_TextBox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ExportAccountStatisticsToHTML_TextBox.UseVisualStyleBackColor = false;
+            this.ExportAccountStatisticsToHTML_TextBox.MouseEnter += new System.EventHandler(this.ExportAccountStatisticsToHTML_TextBox_MouseEnter);
+            this.ExportAccountStatisticsToHTML_TextBox.MouseLeave += new System.EventHandler(this.ExportAccountStatisticsToHTML_TextBox_MouseLeave);
             // 
             // LastCreatedAccountDate_TextBox
             // 
