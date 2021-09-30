@@ -172,6 +172,9 @@
   <data name="InstagramX_HoveredMinimzeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HoveredMinimzeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="InstagramX_HoveredOperationsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_HoveredOperationsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="InstagramX_HoveredSettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HoveredSettingsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -192,6 +195,9 @@
   </data>
   <data name="InstagramX_NLikeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_NLikeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstagramX_OperationsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_OperationsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InstagramX_SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_SettingsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

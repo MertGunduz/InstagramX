@@ -43,20 +43,21 @@ namespace InstagramX
             this.ExitButtonTopMargin_Panel = new System.Windows.Forms.Panel();
             this.ExitButtonMargin_Panel = new System.Windows.Forms.Panel();
             this.Left_Panel = new System.Windows.Forms.Panel();
-            this.Navigation_Panel = new System.Windows.Forms.Panel();
             this.MainHeaderLabel_Panel = new System.Windows.Forms.Panel();
             this.LogoBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.MainLogo_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButton_PictureBox = new System.Windows.Forms.PictureBox();
             this.ExitButton_PictureBox = new System.Windows.Forms.PictureBox();
+            this.Operations_Button = new System.Windows.Forms.Button();
             this.Statistics_Button = new System.Windows.Forms.Button();
             this.Database_Button = new System.Windows.Forms.Button();
             this.Settings_Button = new System.Windows.Forms.Button();
             this.MainMenu_Button = new System.Windows.Forms.Button();
             this.MainHeaderLabel_PictureBox = new System.Windows.Forms.PictureBox();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
-            this.InstagramX_DatabaseUserControl = new InstagramX.InstagramX_DatabaseMenuUserControl();
             this.InstagramX_MainMenuUserControl = new InstagramX.InstagramX_MainMenuUserControl();
+            this.InstagramX_DatabaseUserControl = new InstagramX.InstagramX_DatabaseMenuUserControl();
+            this.Navigation_Panel = new System.Windows.Forms.Panel();
             this.Main_Panel.SuspendLayout();
             this.UserControl_Panel.SuspendLayout();
             this.ControlButtons_Panel.SuspendLayout();
@@ -190,6 +191,7 @@ namespace InstagramX
             // 
             this.Left_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.Left_Panel.Controls.Add(this.Navigation_Panel);
+            this.Left_Panel.Controls.Add(this.Operations_Button);
             this.Left_Panel.Controls.Add(this.Statistics_Button);
             this.Left_Panel.Controls.Add(this.Database_Button);
             this.Left_Panel.Controls.Add(this.Settings_Button);
@@ -201,14 +203,6 @@ namespace InstagramX
             this.Left_Panel.Name = "Left_Panel";
             this.Left_Panel.Size = new System.Drawing.Size(170, 500);
             this.Left_Panel.TabIndex = 0;
-            // 
-            // Navigation_Panel
-            // 
-            this.Navigation_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.Navigation_Panel.Location = new System.Drawing.Point(0, 160);
-            this.Navigation_Panel.Name = "Navigation_Panel";
-            this.Navigation_Panel.Size = new System.Drawing.Size(2, 45);
-            this.Navigation_Panel.TabIndex = 1;
             // 
             // MainHeaderLabel_Panel
             // 
@@ -266,6 +260,31 @@ namespace InstagramX
             this.ExitButton_PictureBox.Click += new System.EventHandler(this.ExitButton_PictureBox_Click);
             this.ExitButton_PictureBox.MouseEnter += new System.EventHandler(this.ExitButton_PictureBox_MouseEnter);
             this.ExitButton_PictureBox.MouseLeave += new System.EventHandler(this.ExitButton_PictureBox_MouseLeave);
+            // 
+            // Operations_Button
+            // 
+            this.Operations_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Operations_Button.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Operations_Button.FlatAppearance.BorderSize = 0;
+            this.Operations_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.Operations_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.Operations_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.Operations_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Operations_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Operations_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.Operations_Button.Image = global::InstagramX.Properties.Resources.InstagramX_OperationsIcon;
+            this.Operations_Button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Operations_Button.Location = new System.Drawing.Point(0, 295);
+            this.Operations_Button.Name = "Operations_Button";
+            this.Operations_Button.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.Operations_Button.Size = new System.Drawing.Size(170, 45);
+            this.Operations_Button.TabIndex = 6;
+            this.Operations_Button.Text = "Operations";
+            this.Operations_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Operations_Button.UseVisualStyleBackColor = true;
+            this.Operations_Button.Click += new System.EventHandler(this.Operations_Button_Click);
+            this.Operations_Button.MouseEnter += new System.EventHandler(this.Operations_Button_MouseEnter);
+            this.Operations_Button.MouseLeave += new System.EventHandler(this.Operations_Button_MouseLeave);
             // 
             // Statistics_Button
             // 
@@ -390,16 +409,6 @@ namespace InstagramX
             this.Logo_PictureBox.TabIndex = 0;
             this.Logo_PictureBox.TabStop = false;
             // 
-            // InstagramX_DatabaseUserControl
-            // 
-            this.InstagramX_DatabaseUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.InstagramX_DatabaseUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.InstagramX_DatabaseUserControl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.InstagramX_DatabaseUserControl.Location = new System.Drawing.Point(0, 0);
-            this.InstagramX_DatabaseUserControl.Name = "InstagramX_DatabaseUserControl";
-            this.InstagramX_DatabaseUserControl.Size = new System.Drawing.Size(630, 475);
-            this.InstagramX_DatabaseUserControl.TabIndex = 0;
-            // 
             // InstagramX_MainMenuUserControl
             // 
             this.InstagramX_MainMenuUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
@@ -410,6 +419,24 @@ namespace InstagramX
             this.InstagramX_MainMenuUserControl.Name = "InstagramX_MainMenuUserControl";
             this.InstagramX_MainMenuUserControl.Size = new System.Drawing.Size(630, 475);
             this.InstagramX_MainMenuUserControl.TabIndex = 1;
+            // 
+            // InstagramX_DatabaseUserControl
+            // 
+            this.InstagramX_DatabaseUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.InstagramX_DatabaseUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InstagramX_DatabaseUserControl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.InstagramX_DatabaseUserControl.Location = new System.Drawing.Point(0, 0);
+            this.InstagramX_DatabaseUserControl.Name = "InstagramX_DatabaseUserControl";
+            this.InstagramX_DatabaseUserControl.Size = new System.Drawing.Size(630, 475);
+            this.InstagramX_DatabaseUserControl.TabIndex = 0;
+            // 
+            // Navigation_Panel
+            // 
+            this.Navigation_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.Navigation_Panel.Location = new System.Drawing.Point(0, 160);
+            this.Navigation_Panel.Name = "Navigation_Panel";
+            this.Navigation_Panel.Size = new System.Drawing.Size(2, 45);
+            this.Navigation_Panel.TabIndex = 7;
             // 
             // InstagramX_MainMenu
             // 
@@ -451,7 +478,6 @@ namespace InstagramX
         private System.Windows.Forms.Button MainMenu_Button;
         private System.Windows.Forms.Button Statistics_Button;
         private System.Windows.Forms.Button Database_Button;
-        private System.Windows.Forms.Panel Navigation_Panel;
         private System.Windows.Forms.Panel LogoBottomMargin_Panel;
         private System.Windows.Forms.Panel ControlButtons_Panel;
         private System.Windows.Forms.Panel MinimizeButton_Panel;
@@ -468,5 +494,7 @@ namespace InstagramX
         private System.Windows.Forms.Panel AccountQuantityLabelMargin_Panel;
         private InstagramX_DatabaseMenuUserControl InstagramX_DatabaseUserControl;
         private InstagramX_MainMenuUserControl InstagramX_MainMenuUserControl;
+        private System.Windows.Forms.Button Operations_Button;
+        private System.Windows.Forms.Panel Navigation_Panel;
     }
 }

@@ -20,13 +20,14 @@ namespace InstagramX
         {
             InitializeComponent();
         }
+
         private void InstagramX_DatabaseMenuUserControl_Load(object sender, EventArgs e)
         {
             // Connection Set To Open
             MSSQLConnection.Open();
 
             // T-SQL Command (Lists All The Data)
-            var selectCommand = new SqlCommand("Select Account_ID As 'ID', Account_Follower As 'FOLLOWERS', Account_Following As 'FOLLOWING', Account_Posts As 'POSTS', Account_CreationDate As 'CREATED IN', Account_InstagramUsername As 'INSTAGRAM USERNAME', Account_InstagramPassword As 'INSTAGRAM PASSWORD', Account_Email As 'EMAIL', Account_EmailPassword As 'EMAIL PASSWORD' From InstagramX_AccountsTable", MSSQLConnection);
+            var selectCommand = new SqlCommand("Select Account_ID As 'ID', Account_Follower As 'FOLLOWERS', Account_Following As 'FOLLOWING', Account_Posts As 'POSTS', Account_CreationDate As 'CREATED IN', Account_InstagramUsername As 'INSTAGRAM USERNAME', Account_InstagramPassword As 'INSTAGRAM PASSWORD', Account_Email As 'EMAIL', Account_EmailPassword As 'EMAIL PASSWORD', Account_UserGender As 'Gender' From InstagramX_AccountsTable", MSSQLConnection);
             
             // SQL Data Adapter Linked To SelectCommand
             var sqlDataAdapter = new SqlDataAdapter();

@@ -57,6 +57,19 @@ namespace InstagramX
             Statistics_Button.ForeColor = Color.FromArgb(4, 150, 239);
         }
 
+        // Operations Button (Hover-NonHover)
+        private void Operations_Button_MouseEnter(object sender, EventArgs e)
+        {
+            Operations_Button.Image = Resources.InstagramX_HoveredOperationsIcon;
+            Operations_Button.ForeColor = Color.FromArgb(19, 165, 254);
+        }
+
+        private void Operations_Button_MouseLeave(object sender, EventArgs e)
+        {
+            Operations_Button.Image = Resources.InstagramX_OperationsIcon;
+            Operations_Button.ForeColor = Color.FromArgb(4, 150, 239);
+        }
+
         // Settings Button (Hover-NonHover)
         private void Settings_Button_MouseEnter(object sender, EventArgs e)
         {
@@ -95,22 +108,27 @@ namespace InstagramX
         // UI Change When Clicks Are Method --> ButtonUI
         private void MainMenu_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
+            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
         }
 
         private void Database_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
         }
 
         private void Statistics_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+        }
+
+        private void Operations_Button_Click(object sender, EventArgs e)
+        {
+            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
         }
 
         private void Settings_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
         }
 
         // Window State Controls
@@ -124,7 +142,7 @@ namespace InstagramX
             WindowState = FormWindowState.Minimized;
         }
 
-        private void ButtonUI(Button FirstButton, Button SecondButton, Button ThirdButton, Button FourthButton, Panel NavigationPanel, UserControl UserControl)
+        private void ButtonUI(Button FirstButton, Button SecondButton, Button ThirdButton, Button FourthButton, Button FifthButton, Panel NavigationPanel, UserControl UserControl)
         {
             // Sets The FirstButton As Clicked
             FirstButton.BackColor = Color.FromArgb(46, 51, 73);
@@ -150,6 +168,11 @@ namespace InstagramX
             FourthButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(24, 30, 54);
             FourthButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(24, 30, 54);
             FourthButton.FlatAppearance.CheckedBackColor = Color.FromArgb(24, 30, 54);
+
+            FifthButton.BackColor = Color.FromArgb(24, 30, 54);
+            FifthButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(24, 30, 54);
+            FifthButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(24, 30, 54);
+            FifthButton.FlatAppearance.CheckedBackColor = Color.FromArgb(24, 30, 54);
         }
     }
 }
