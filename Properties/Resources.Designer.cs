@@ -233,6 +233,16 @@ namespace InstagramX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_HoveredHTMLIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_HoveredHTMLIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InstagramX_HoveredLikeIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_HoveredLikeIcon", resourceCulture);
@@ -276,6 +286,16 @@ namespace InstagramX.Properties {
         internal static System.Drawing.Bitmap InstagramX_HoveredStatisticsIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_HoveredStatisticsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InstagramX_HTMLIcon {
+            get {
+                object obj = ResourceManager.GetObject("InstagramX_HTMLIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
