@@ -131,6 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+    <None Include="Resources\InstagramX_HTMLIcon.png" />
+    <None Include="Resources\InstagramX_HoveredHTMLIcon.png" />
+    <None Include="Resources\InstagramX_OperationStatisticsIcon.png" />
+    <None Include="Resources\InstagramX_AccountStatisticsIcon.png" />
     <None Include="Resources\InstagramX_OperationsIcon.png" />
     <None Include="Resources\InstagramX_HoveredOperationsIcon.png" />
     <None Include="Resources\InstagramX_HoveredCreateAccountsIcon.png" />
