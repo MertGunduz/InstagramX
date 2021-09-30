@@ -118,7 +118,7 @@ namespace InstagramX
 
         private void Statistics_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_StatisticsUserControl);
         }
 
         private void Operations_Button_Click(object sender, EventArgs e)
