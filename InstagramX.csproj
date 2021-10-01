@@ -74,6 +74,12 @@
     <Compile Include="InstagramX_MainMenuUserControl.Designer.cs">
       <DependentUpon>InstagramX_MainMenuUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstagramX_OperationsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstagramX_OperationsUserControl.Designer.cs">
+      <DependentUpon>InstagramX_OperationsUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstagramX_SettingsMenuUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InstagramX_MainMenuUserControl.resx">
       <DependentUpon>InstagramX_MainMenuUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstagramX_OperationsUserControl.resx">
+      <DependentUpon>InstagramX_OperationsUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstagramX_SettingsMenuUserControl.resx">
       <DependentUpon>InstagramX_SettingsMenuUserControl.cs</DependentUpon>

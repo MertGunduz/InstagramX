@@ -113,7 +113,7 @@ namespace InstagramX
 
         private void Database_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControl);
         }
 
         private void Statistics_Button_Click(object sender, EventArgs e)
@@ -123,12 +123,12 @@ namespace InstagramX
 
         private void Operations_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_OperationsUserControl);
         }
 
         private void Settings_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_DatabaseUserControl);
+            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_OperationsUserControl);
         }
 
         // Window State Controls

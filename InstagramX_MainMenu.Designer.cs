@@ -56,8 +56,9 @@ namespace InstagramX
             this.MainHeaderLabel_PictureBox = new System.Windows.Forms.PictureBox();
             this.MainLogo_Panel = new System.Windows.Forms.Panel();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
+            this.InstagramX_OperationsUserControl = new InstagramX.InstagramX_OperationsUserControl();
             this.InstagramX_StatisticsUserControl = new InstagramX.InstagramX_StatisticsMenuUserControl();
-            this.InstagramX_DatabaseUserControl = new InstagramX.InstagramX_DatabaseMenuUserControl();
+            this.InstagramX_DatabaseMenuUserControl = new InstagramX.InstagramX_DatabaseMenuUserControl();
             this.InstagramX_MainMenuUserControl = new InstagramX.InstagramX_MainMenuUserControl();
             this.Main_Panel.SuspendLayout();
             this.UserControl_Panel.SuspendLayout();
@@ -87,8 +88,9 @@ namespace InstagramX
             // UserControl_Panel
             // 
             this.UserControl_Panel.Controls.Add(this.InstagramX_MainMenuUserControl);
-            this.UserControl_Panel.Controls.Add(this.InstagramX_DatabaseUserControl);
+            this.UserControl_Panel.Controls.Add(this.InstagramX_DatabaseMenuUserControl);
             this.UserControl_Panel.Controls.Add(this.InstagramX_StatisticsUserControl);
+            this.UserControl_Panel.Controls.Add(this.InstagramX_OperationsUserControl);
             this.UserControl_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UserControl_Panel.Location = new System.Drawing.Point(170, 25);
             this.UserControl_Panel.Name = "UserControl_Panel";
@@ -419,6 +421,17 @@ namespace InstagramX
             this.Logo_PictureBox.TabIndex = 0;
             this.Logo_PictureBox.TabStop = false;
             // 
+            // InstagramX_OperationsUserControl
+            // 
+            this.InstagramX_OperationsUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.InstagramX_OperationsUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InstagramX_OperationsUserControl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.InstagramX_OperationsUserControl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.InstagramX_OperationsUserControl.Location = new System.Drawing.Point(0, 0);
+            this.InstagramX_OperationsUserControl.Name = "InstagramX_OperationsUserControl";
+            this.InstagramX_OperationsUserControl.Size = new System.Drawing.Size(630, 475);
+            this.InstagramX_OperationsUserControl.TabIndex = 0;
+            // 
             // InstagramX_StatisticsUserControl
             // 
             this.InstagramX_StatisticsUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
@@ -427,17 +440,17 @@ namespace InstagramX
             this.InstagramX_StatisticsUserControl.Location = new System.Drawing.Point(0, 0);
             this.InstagramX_StatisticsUserControl.Name = "InstagramX_StatisticsUserControl";
             this.InstagramX_StatisticsUserControl.Size = new System.Drawing.Size(630, 475);
-            this.InstagramX_StatisticsUserControl.TabIndex = 0;
+            this.InstagramX_StatisticsUserControl.TabIndex = 1;
             // 
-            // InstagramX_DatabaseUserControl
+            // InstagramX_DatabaseMenuUserControl
             // 
-            this.InstagramX_DatabaseUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.InstagramX_DatabaseUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.InstagramX_DatabaseUserControl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.InstagramX_DatabaseUserControl.Location = new System.Drawing.Point(0, 0);
-            this.InstagramX_DatabaseUserControl.Name = "InstagramX_DatabaseUserControl";
-            this.InstagramX_DatabaseUserControl.Size = new System.Drawing.Size(630, 475);
-            this.InstagramX_DatabaseUserControl.TabIndex = 1;
+            this.InstagramX_DatabaseMenuUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.InstagramX_DatabaseMenuUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InstagramX_DatabaseMenuUserControl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.InstagramX_DatabaseMenuUserControl.Location = new System.Drawing.Point(0, 0);
+            this.InstagramX_DatabaseMenuUserControl.Name = "InstagramX_DatabaseMenuUserControl";
+            this.InstagramX_DatabaseMenuUserControl.Size = new System.Drawing.Size(630, 475);
+            this.InstagramX_DatabaseMenuUserControl.TabIndex = 2;
             // 
             // InstagramX_MainMenuUserControl
             // 
@@ -448,7 +461,7 @@ namespace InstagramX
             this.InstagramX_MainMenuUserControl.Location = new System.Drawing.Point(0, 0);
             this.InstagramX_MainMenuUserControl.Name = "InstagramX_MainMenuUserControl";
             this.InstagramX_MainMenuUserControl.Size = new System.Drawing.Size(630, 475);
-            this.InstagramX_MainMenuUserControl.TabIndex = 2;
+            this.InstagramX_MainMenuUserControl.TabIndex = 3;
             // 
             // InstagramX_MainMenu
             // 
@@ -507,7 +520,8 @@ namespace InstagramX
         private System.Windows.Forms.Button Operations_Button;
         private System.Windows.Forms.Panel Navigation_Panel;
         private InstagramX_MainMenuUserControl InstagramX_MainMenuUserControl;
-        private InstagramX_DatabaseMenuUserControl InstagramX_DatabaseUserControl;
+        private InstagramX_DatabaseMenuUserControl InstagramX_DatabaseMenuUserControl;
         private InstagramX_StatisticsMenuUserControl InstagramX_StatisticsUserControl;
+        private InstagramX_OperationsUserControl InstagramX_OperationsUserControl;
     }
 }
