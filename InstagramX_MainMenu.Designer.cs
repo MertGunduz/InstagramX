@@ -33,18 +33,22 @@ namespace InstagramX
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.UserControl_Panel = new System.Windows.Forms.Panel();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.InstagramX_MainMenuUserControl = new InstagramX.InstagramX_MainMenuUserControl();
             this.InstagramX_DatabaseMenuUserControl = new InstagramX.InstagramX_DatabaseMenuUserControl();
             this.InstagramX_StatisticsUserControl = new InstagramX.InstagramX_StatisticsMenuUserControl();
             this.InstagramX_OperationsUserControl = new InstagramX.InstagramX_OperationsUserControl();
 =======
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.ControlButtons_Panel = new System.Windows.Forms.Panel();
             this.AccountQuantity_Label = new System.Windows.Forms.Label();
             this.AccountQuantityLabelMargin_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButtonLeftMargin_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButton_Panel = new System.Windows.Forms.Panel();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.MinimizeButton_PictureBox = new System.Windows.Forms.PictureBox();
             this.MinimizeButtonTopMargin_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButtonMargin_Panel = new System.Windows.Forms.Panel();
@@ -55,23 +59,35 @@ namespace InstagramX
             this.MinimizeButtonMargin_Panel = new System.Windows.Forms.Panel();
             this.ExitButton_Panel = new System.Windows.Forms.Panel();
 >>>>>>> bc7a883 (About User)
+=======
+            this.MinimizeButtonTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.MinimizeButtonMargin_Panel = new System.Windows.Forms.Panel();
+            this.ExitButton_Panel = new System.Windows.Forms.Panel();
+>>>>>>> fb744b6 (Bugfix)
             this.ExitButtonTopMargin_Panel = new System.Windows.Forms.Panel();
             this.ExitButtonMargin_Panel = new System.Windows.Forms.Panel();
             this.Left_Panel = new System.Windows.Forms.Panel();
             this.Navigation_Panel = new System.Windows.Forms.Panel();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.MainHeaderLabel_Panel = new System.Windows.Forms.Panel();
             this.LogoBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.MainLogo_Panel = new System.Windows.Forms.Panel();
             this.MinimizeButton_PictureBox = new System.Windows.Forms.PictureBox();
             this.ExitButton_PictureBox = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.Operations_Button = new System.Windows.Forms.Button();
             this.Statistics_Button = new System.Windows.Forms.Button();
             this.Database_Button = new System.Windows.Forms.Button();
             this.About_Button = new System.Windows.Forms.Button();
             this.MainMenu_Button = new System.Windows.Forms.Button();
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.MainHeaderLabel_Panel = new System.Windows.Forms.Panel();
             this.LogoBottomMargin_Panel = new System.Windows.Forms.Panel();
@@ -79,6 +95,8 @@ namespace InstagramX
             this.MainLogo_Panel = new System.Windows.Forms.Panel();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.MainHeaderLabel_PictureBox = new System.Windows.Forms.PictureBox();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
             this.InstagramX_MainMenuUserControlIns = new InstagramX.InstagramX_MainMenuUserControl();
@@ -86,11 +104,15 @@ namespace InstagramX
             this.InstagramX_StatisticsMenuUserControlIns = new InstagramX.InstagramX_StatisticsMenuUserControl();
             this.InstagramX_OperationsUserControlIns = new InstagramX.InstagramX_OperationsUserControl();
             this.InstagramX_AboutMenuUserControlIns = new InstagramX.InstagramX_AboutMenuUserControl();
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.Main_Panel.SuspendLayout();
             this.UserControl_Panel.SuspendLayout();
             this.ControlButtons_Panel.SuspendLayout();
             this.MinimizeButton_Panel.SuspendLayout();
+<<<<<<< HEAD
 <<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeButton_PictureBox)).BeginInit();
             this.ExitButton_Panel.SuspendLayout();
@@ -100,6 +122,8 @@ namespace InstagramX
             ((System.ComponentModel.ISupportInitialize)(this.MainHeaderLabel_PictureBox)).BeginInit();
             this.MainLogo_Panel.SuspendLayout();
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.ExitButton_Panel.SuspendLayout();
             this.Left_Panel.SuspendLayout();
             this.MainHeaderLabel_Panel.SuspendLayout();
@@ -107,7 +131,10 @@ namespace InstagramX
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeButton_PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitButton_PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainHeaderLabel_PictureBox)).BeginInit();
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             ((System.ComponentModel.ISupportInitialize)(this.Logo_PictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,23 +152,30 @@ namespace InstagramX
             // UserControl_Panel
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.UserControl_Panel.Controls.Add(this.InstagramX_MainMenuUserControl);
             this.UserControl_Panel.Controls.Add(this.InstagramX_DatabaseMenuUserControl);
             this.UserControl_Panel.Controls.Add(this.InstagramX_StatisticsUserControl);
             this.UserControl_Panel.Controls.Add(this.InstagramX_OperationsUserControl);
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.UserControl_Panel.Controls.Add(this.InstagramX_MainMenuUserControlIns);
             this.UserControl_Panel.Controls.Add(this.InstagramX_DatabaseMenuUserControlIns);
             this.UserControl_Panel.Controls.Add(this.InstagramX_StatisticsMenuUserControlIns);
             this.UserControl_Panel.Controls.Add(this.InstagramX_OperationsUserControlIns);
             this.UserControl_Panel.Controls.Add(this.InstagramX_AboutMenuUserControlIns);
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.UserControl_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UserControl_Panel.Location = new System.Drawing.Point(170, 25);
             this.UserControl_Panel.Name = "UserControl_Panel";
             this.UserControl_Panel.Size = new System.Drawing.Size(630, 475);
             this.UserControl_Panel.TabIndex = 2;
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // InstagramX_MainMenuUserControl
             // 
@@ -187,6 +221,8 @@ namespace InstagramX
             // 
 =======
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // ControlButtons_Panel
             // 
             this.ControlButtons_Panel.Controls.Add(this.AccountQuantity_Label);
@@ -240,6 +276,7 @@ namespace InstagramX
             this.MinimizeButton_Panel.TabIndex = 5;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // MinimizeButton_PictureBox
             // 
             this.MinimizeButton_PictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -257,6 +294,8 @@ namespace InstagramX
             // 
 =======
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // MinimizeButtonTopMargin_Panel
             // 
             this.MinimizeButtonTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -284,6 +323,7 @@ namespace InstagramX
             this.ExitButton_Panel.TabIndex = 3;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // ExitButton_PictureBox
             // 
             this.ExitButton_PictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -301,6 +341,8 @@ namespace InstagramX
             // 
 =======
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // ExitButtonTopMargin_Panel
             // 
             this.ExitButtonTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -343,7 +385,10 @@ namespace InstagramX
             this.Navigation_Panel.TabIndex = 7;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             // MainHeaderLabel_Panel
             // 
             this.MainHeaderLabel_Panel.Controls.Add(this.LogoBottomMargin_Panel);
@@ -401,7 +446,10 @@ namespace InstagramX
             this.ExitButton_PictureBox.MouseEnter += new System.EventHandler(this.ExitButton_PictureBox_MouseEnter);
             this.ExitButton_PictureBox.MouseLeave += new System.EventHandler(this.ExitButton_PictureBox_MouseLeave);
             // 
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // Operations_Button
             // 
             this.Operations_Button.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -529,6 +577,7 @@ namespace InstagramX
             this.MainMenu_Button.MouseLeave += new System.EventHandler(this.MainMenu_Button_MouseLeave);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // MainHeaderLabel_Panel
             // 
             this.MainHeaderLabel_Panel.Controls.Add(this.LogoBottomMargin_Panel);
@@ -549,6 +598,8 @@ namespace InstagramX
             // 
 =======
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // MainHeaderLabel_PictureBox
             // 
             this.MainHeaderLabel_PictureBox.Dock = System.Windows.Forms.DockStyle.Top;
@@ -561,6 +612,7 @@ namespace InstagramX
             this.MainHeaderLabel_PictureBox.TabStop = false;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // MainLogo_Panel
             // 
             this.MainLogo_Panel.Controls.Add(this.Logo_PictureBox);
@@ -572,6 +624,8 @@ namespace InstagramX
             // 
 =======
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // Logo_PictureBox
             // 
             this.Logo_PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -584,7 +638,10 @@ namespace InstagramX
             this.Logo_PictureBox.TabStop = false;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             // InstagramX_MainMenuUserControlIns
             // 
             this.InstagramX_MainMenuUserControlIns.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
@@ -637,7 +694,10 @@ namespace InstagramX
             this.InstagramX_AboutMenuUserControlIns.Size = new System.Drawing.Size(630, 475);
             this.InstagramX_AboutMenuUserControlIns.TabIndex = 0;
             // 
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             // InstagramX_MainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -655,6 +715,7 @@ namespace InstagramX
             this.ControlButtons_Panel.ResumeLayout(false);
             this.MinimizeButton_Panel.ResumeLayout(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeButton_PictureBox)).EndInit();
             this.ExitButton_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ExitButton_PictureBox)).EndInit();
@@ -663,6 +724,8 @@ namespace InstagramX
             ((System.ComponentModel.ISupportInitialize)(this.MainHeaderLabel_PictureBox)).EndInit();
             this.MainLogo_Panel.ResumeLayout(false);
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
             this.ExitButton_Panel.ResumeLayout(false);
             this.Left_Panel.ResumeLayout(false);
             this.MainHeaderLabel_Panel.ResumeLayout(false);
@@ -670,7 +733,10 @@ namespace InstagramX
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeButton_PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitButton_PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainHeaderLabel_PictureBox)).EndInit();
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
             ((System.ComponentModel.ISupportInitialize)(this.Logo_PictureBox)).EndInit();
             this.ResumeLayout(false);
 
@@ -705,16 +771,22 @@ namespace InstagramX
         private System.Windows.Forms.Button Operations_Button;
         private System.Windows.Forms.Panel Navigation_Panel;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private InstagramX_MainMenuUserControl InstagramX_MainMenuUserControl;
         private InstagramX_DatabaseMenuUserControl InstagramX_DatabaseMenuUserControl;
         private InstagramX_StatisticsMenuUserControl InstagramX_StatisticsUserControl;
         private InstagramX_OperationsUserControl InstagramX_OperationsUserControl;
 =======
+=======
+>>>>>>> fb744b6 (Bugfix)
         private InstagramX_MainMenuUserControl InstagramX_MainMenuUserControlIns;
         private InstagramX_DatabaseMenuUserControl InstagramX_DatabaseMenuUserControlIns;
         private InstagramX_StatisticsMenuUserControl InstagramX_StatisticsMenuUserControlIns;
         private InstagramX_OperationsUserControl InstagramX_OperationsUserControlIns;
         private InstagramX_AboutMenuUserControl InstagramX_AboutMenuUserControlIns;
+<<<<<<< HEAD
 >>>>>>> bc7a883 (About User)
+=======
+>>>>>>> fb744b6 (Bugfix)
     }
 }

@@ -146,11 +146,17 @@
     <value>..\Resources\InstagramX_HeadersFollowersBotIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <data name="InstagramX_HeadersHowToUseIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HeadersHowToUseIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 >>>>>>> bc7a883 (About User)
+=======
+  <data name="InstagramX_HeadersHowToUseIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstagramX_HeadersHowToUseIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+>>>>>>> fb744b6 (Bugfix)
   <data name="InstagramX_HeadersLikeBotIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstagramX_HeadersLikeBotIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

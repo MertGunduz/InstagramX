@@ -109,46 +109,66 @@ namespace InstagramX
         private void MainMenu_Button_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
 =======
             ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_MainMenuUserControlIns);
 >>>>>>> bc7a883 (About User)
+=======
+            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_MainMenuUserControlIns);
+>>>>>>> fb744b6 (Bugfix)
         }
 
         private void Database_Button_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControl);
 =======
             ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControlIns);
 >>>>>>> bc7a883 (About User)
+=======
+            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControlIns);
+>>>>>>> fb744b6 (Bugfix)
         }
 
         private void Statistics_Button_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_StatisticsUserControl);
 =======
             ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_StatisticsMenuUserControlIns);
 >>>>>>> bc7a883 (About User)
+=======
+            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_StatisticsMenuUserControlIns);
+>>>>>>> fb744b6 (Bugfix)
         }
 
         private void Operations_Button_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, About_Button, Navigation_Panel, InstagramX_OperationsUserControl);
 =======
             ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, About_Button, Navigation_Panel, InstagramX_OperationsUserControlIns);
 >>>>>>> bc7a883 (About User)
+=======
+            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, About_Button, Navigation_Panel, InstagramX_OperationsUserControlIns);
+>>>>>>> fb744b6 (Bugfix)
         }
 
         private void About_Button_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             ButtonUI(About_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_OperationsUserControl);
 =======
             ButtonUI(About_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_AboutMenuUserControlIns);
 >>>>>>> bc7a883 (About User)
+=======
+            ButtonUI(About_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_AboutMenuUserControlIns);
+>>>>>>> fb744b6 (Bugfix)
         }
 
         // Window State Controls
