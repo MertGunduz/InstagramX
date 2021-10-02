@@ -153,11 +153,6 @@ namespace InstagramX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> fb744b6 (Bugfix)
         internal static System.Drawing.Bitmap InstagramX_HeadersHowToUseIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_HeadersHowToUseIcon", resourceCulture);
@@ -168,10 +163,6 @@ namespace InstagramX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
->>>>>>> bc7a883 (About User)
-=======
->>>>>>> fb744b6 (Bugfix)
         internal static System.Drawing.Bitmap InstagramX_HeadersLikeBotIcon {
             get {
                 object obj = ResourceManager.GetObject("InstagramX_HeadersLikeBotIcon", resourceCulture);

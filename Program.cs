@@ -19,8 +19,4 @@ namespace InstagramX
             Application.Run(new InstagramX_AwakeMenu());
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fb744b6 (Bugfix)
