@@ -108,27 +108,47 @@ namespace InstagramX
         // UI Change When Clicks Are Method --> ButtonUI
         private void MainMenu_Button_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
+=======
+            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_MainMenuUserControlIns);
+>>>>>>> bc7a883 (About User)
         }
 
         private void Database_Button_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControl);
+=======
+            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControlIns);
+>>>>>>> bc7a883 (About User)
         }
 
         private void Statistics_Button_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_StatisticsUserControl);
+=======
+            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_StatisticsMenuUserControlIns);
+>>>>>>> bc7a883 (About User)
         }
 
         private void Operations_Button_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, About_Button, Navigation_Panel, InstagramX_OperationsUserControl);
+=======
+            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, About_Button, Navigation_Panel, InstagramX_OperationsUserControlIns);
+>>>>>>> bc7a883 (About User)
         }
 
         private void About_Button_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             ButtonUI(About_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_OperationsUserControl);
+=======
+            ButtonUI(About_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_AboutMenuUserControlIns);
+>>>>>>> bc7a883 (About User)
         }
 
         // Window State Controls

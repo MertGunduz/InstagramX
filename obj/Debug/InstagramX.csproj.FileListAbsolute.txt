@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_AwakeMenu.resources
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_MainMenu.resources
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.Properties.Resources.resources
@@ -14,3 +15,36 @@ C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_SettingsMenuU
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_StatisticsMenuUserControl.resources
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_OperationsUserControl.resources
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.AssemblyReference.cache
+=======
+C:\Users\u\Desktop\InstagramX_UI\bin\Debug\InstagramX.exe.config
+C:\Users\u\Desktop\InstagramX_UI\bin\Debug\InstagramX.exe
+C:\Users\u\Desktop\InstagramX_UI\bin\Debug\InstagramX.pdb
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.csproj.AssemblyReference.cache
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_AwakeMenu.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_DatabaseMenuUserControl.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_MainMenu.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_MainMenuUserControl.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_OperationsUserControl.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_AboutMenuUserControl.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.InstagramX_StatisticsMenuUserControl.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.Properties.Resources.resources
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.csproj.GenerateResource.cache
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.csproj.CoreCompileInputs.cache
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.exe
+C:\Users\u\Desktop\InstagramX_UI\obj\Debug\InstagramX.pdb
+C:\Users\u\source\repos\InstagramX\bin\Debug\InstagramX.exe.config
+C:\Users\u\source\repos\InstagramX\bin\Debug\InstagramX.exe
+C:\Users\u\source\repos\InstagramX\bin\Debug\InstagramX.pdb
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_AwakeMenu.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_DatabaseMenuUserControl.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_MainMenu.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_MainMenuUserControl.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_OperationsUserControl.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_AboutMenuUserControl.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_StatisticsMenuUserControl.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.Properties.Resources.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.GenerateResource.cache
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.CoreCompileInputs.cache
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.exe
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.pdb
+>>>>>>> bc7a883 (About User)

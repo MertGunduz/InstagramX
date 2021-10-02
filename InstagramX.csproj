@@ -80,11 +80,19 @@
     <Compile Include="InstagramX_OperationsUserControl.Designer.cs">
       <DependentUpon>InstagramX_OperationsUserControl.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="InstagramX_SettingsMenuUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="InstagramX_SettingsMenuUserControl.Designer.cs">
       <DependentUpon>InstagramX_SettingsMenuUserControl.cs</DependentUpon>
+=======
+    <Compile Include="InstagramX_AboutMenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstagramX_AboutMenuUserControl.Designer.cs">
+      <DependentUpon>InstagramX_AboutMenuUserControl.cs</DependentUpon>
+>>>>>>> bc7a883 (About User)
     </Compile>
     <Compile Include="InstagramX_StatisticsMenuUserControl.cs">
       <SubType>UserControl</SubType>
@@ -109,8 +117,13 @@
     <EmbeddedResource Include="InstagramX_OperationsUserControl.resx">
       <DependentUpon>InstagramX_OperationsUserControl.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="InstagramX_SettingsMenuUserControl.resx">
       <DependentUpon>InstagramX_SettingsMenuUserControl.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="InstagramX_AboutMenuUserControl.resx">
+      <DependentUpon>InstagramX_AboutMenuUserControl.cs</DependentUpon>
+>>>>>>> bc7a883 (About User)
     </EmbeddedResource>
     <EmbeddedResource Include="InstagramX_StatisticsMenuUserControl.resx">
       <DependentUpon>InstagramX_StatisticsMenuUserControl.cs</DependentUpon>
@@ -140,6 +153,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+<<<<<<< HEAD
+=======
+    <None Include="Resources\InstagramX_HeadersHowToUseIcon.png" />
+>>>>>>> bc7a883 (About User)
     <None Include="Resources\InstagramX_HoveredAboutIcon.png" />
     <None Include="Resources\InstagramX_AboutIcon.png" />
     <None Include="Resources\InstagramX_HTMLIcon.png" />
