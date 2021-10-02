@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using InstagramX.Properties;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using InstagramX.Properties;
 
 namespace InstagramX
 {
@@ -35,7 +29,7 @@ namespace InstagramX
         private void LikePosts_Button_MouseEnter(object sender, EventArgs e)
         {
             LikePosts_Button.Image = Resources.InstagramX_HoveredLikeIcon;
-            LikePosts_Button.ForeColor = Color.FromArgb(19, 165, 254); 
+            LikePosts_Button.ForeColor = Color.FromArgb(19, 165, 254);
         }
 
         private void LikePosts_Button_MouseLeave(object sender, EventArgs e)
@@ -92,7 +86,7 @@ namespace InstagramX
 
         private void LikeBotLikeQty_TextBox_MouseClick(object sender, MouseEventArgs e)
         {
-            if (LikeBotLikeQty_TextBox.Text == "  Like Qty:") 
+            if (LikeBotLikeQty_TextBox.Text == "  Like Qty:")
             {
                 LikeBotLikeQty_TextBox.Clear();
             }

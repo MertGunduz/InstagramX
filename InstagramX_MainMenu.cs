@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using InstagramX.Properties;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using InstagramX.Properties;
 
 namespace InstagramX
 {
@@ -35,7 +29,7 @@ namespace InstagramX
         private void Database_Button_MouseEnter(object sender, EventArgs e)
         {
             Database_Button.Image = Resources.InstagramX_HoveredDatabaseIcon;
-            Database_Button.ForeColor  = Color.FromArgb(19, 165, 254); 
+            Database_Button.ForeColor = Color.FromArgb(19, 165, 254);
         }
 
         private void Database_Button_MouseLeave(object sender, EventArgs e)

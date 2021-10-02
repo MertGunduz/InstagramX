@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using InstagramX.Properties;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Windows.Forms;
-using InstagramX.Properties;
 
 namespace InstagramX
 {
@@ -28,18 +23,18 @@ namespace InstagramX
 
             // T-SQL Command (Lists All The Data)
             var selectCommand = new SqlCommand("Select Account_ID As 'ID', Account_Follower As 'FOLLOWERS', Account_Following As 'FOLLOWING', Account_Posts As 'POSTS', Account_CreationDate As 'CREATED IN', Account_InstagramUsername As 'INSTAGRAM USERNAME', Account_InstagramPassword As 'INSTAGRAM PASSWORD', Account_Email As 'EMAIL', Account_EmailPassword As 'EMAIL PASSWORD', Account_UserGender As 'Gender' From InstagramX_AccountsTable", MSSQLConnection);
-            
+
             // SQL Data Adapter Linked To SelectCommand
             var sqlDataAdapter = new SqlDataAdapter();
             sqlDataAdapter.SelectCommand = selectCommand;
-            
+
             // Datatable Filled
             var dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
 
             InstagramX_DataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             InstagramX_DataGridView.DataSource = dataTable;
-            
+
             // Connection Set To Closed
             MSSQLConnection.Close();
         }
