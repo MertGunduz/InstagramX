@@ -70,17 +70,17 @@ namespace InstagramX
             Operations_Button.ForeColor = Color.FromArgb(4, 150, 239);
         }
 
-        // Settings Button (Hover-NonHover)
-        private void Settings_Button_MouseEnter(object sender, EventArgs e)
+        // About Button (Hover-NonHover)
+        private void About_Button_MouseEnter(object sender, EventArgs e)
         {
-            Settings_Button.Image = Resources.InstagramX_HoveredSettingsIcon;
-            Settings_Button.ForeColor = Color.FromArgb(19, 165, 254);
+            About_Button.Image = Resources.InstagramX_HoveredAboutIcon;
+            About_Button.ForeColor = Color.FromArgb(19, 165, 254);
         }
 
-        private void Settings_Button_MouseLeave(object sender, EventArgs e)
+        private void About_Button_MouseLeave(object sender, EventArgs e)
         {
-            Settings_Button.Image = Resources.InstagramX_SettingsIcon;
-            Settings_Button.ForeColor = Color.FromArgb(4, 150, 239);
+            About_Button.Image = Resources.InstagramX_AboutIcon;
+            About_Button.ForeColor = Color.FromArgb(4, 150, 239);
         }
 
         // Exit Button (Hover-NonHover)
@@ -108,27 +108,27 @@ namespace InstagramX
         // UI Change When Clicks Are Method --> ButtonUI
         private void MainMenu_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
+            ButtonUI(MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_MainMenuUserControl);
         }
 
         private void Database_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControl);
+            ButtonUI(Database_Button, MainMenu_Button, Statistics_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_DatabaseMenuUserControl);
         }
 
         private void Statistics_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, Settings_Button, Navigation_Panel, InstagramX_StatisticsUserControl);
+            ButtonUI(Statistics_Button, MainMenu_Button, Database_Button, Operations_Button, About_Button, Navigation_Panel, InstagramX_StatisticsUserControl);
         }
 
         private void Operations_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, Settings_Button, Navigation_Panel, InstagramX_OperationsUserControl);
+            ButtonUI(Operations_Button, MainMenu_Button, Database_Button, Statistics_Button, About_Button, Navigation_Panel, InstagramX_OperationsUserControl);
         }
 
-        private void Settings_Button_Click(object sender, EventArgs e)
+        private void About_Button_Click(object sender, EventArgs e)
         {
-            ButtonUI(Settings_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_OperationsUserControl);
+            ButtonUI(About_Button, MainMenu_Button, Database_Button, Statistics_Button, Operations_Button, Navigation_Panel, InstagramX_OperationsUserControl);
         }
 
         // Window State Controls

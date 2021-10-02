@@ -13,3 +13,4 @@ C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_DatabaseMenuU
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_SettingsMenuUserControl.resources
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_StatisticsMenuUserControl.resources
 C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.InstagramX_OperationsUserControl.resources
+C:\Users\u\source\repos\InstagramX\obj\Debug\InstagramX.csproj.AssemblyReference.cache

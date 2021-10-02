@@ -140,6 +140,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+    <None Include="Resources\InstagramX_HoveredAboutIcon.png" />
+    <None Include="Resources\InstagramX_AboutIcon.png" />
     <None Include="Resources\InstagramX_HTMLIcon.png" />
     <None Include="Resources\InstagramX_HoveredHTMLIcon.png" />
     <None Include="Resources\InstagramX_OperationStatisticsIcon.png" />
@@ -163,11 +165,9 @@
     <None Include="Resources\InstagramX_HoveredExitIcon.png" />
     <None Include="Resources\InstagramX_ExitIcon.png" />
     <None Include="Resources\InstagramX_HoveredStatisticsIcon.png" />
-    <None Include="Resources\InstagramX_HoveredSettingsIcon.png" />
     <None Include="Resources\InstagramX_HoveredHomeIcon.png" />
     <None Include="Resources\InstagramX_HoveredDatabaseIcon.png" />
     <None Include="Resources\InstagramX_StatisticsIcon.png" />
-    <None Include="Resources\InstagramX_SettingsIcon.png" />
     <None Include="Resources\InstagramX_HomeIcon.png" />
     <None Include="Resources\InstagramX_DatabaseIcon.png" />
     <None Include="Resources\InstagramX_HeaderSmallLabelIcon.png" />
