@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstagramX_LogoIcon.ico" />
+    <None Include="Resources\InstagramX_HeadersDeveloperSignatureIcon.png" />
     <None Include="Resources\InstagramX_HeadersHowToUseIcon.png" />
     <None Include="Resources\InstagramX_HoveredAboutIcon.png" />
     <None Include="Resources\InstagramX_AboutIcon.png" />

@@ -1,5 +1,4 @@
-﻿
-namespace InstagramX
+﻿namespace InstagramX
 {
     partial class InstagramX_AwakeMenu
     {
@@ -316,4 +315,3 @@ namespace InstagramX
         private System.Windows.Forms.Timer AwakeMenu_Timer;
     }
 }
-
